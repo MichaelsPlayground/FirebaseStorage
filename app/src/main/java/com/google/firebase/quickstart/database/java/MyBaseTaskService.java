@@ -73,6 +73,7 @@ public abstract class MyBaseTaskService extends Service {
                 .setContentText(caption)
                 .setProgress(100, percentComplete, false)
                 .setOngoing(true)
+                .setPriority(NotificationManager.IMPORTANCE_LOW) // new to run without sound
                 .setAutoCancel(false);
 
         NotificationManager manager =

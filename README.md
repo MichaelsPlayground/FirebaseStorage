@@ -9,6 +9,8 @@ uses anonymus login
 
 Note: I renamed the package to com.google.firebase.quickstart.database
 
+in Firebase console use project FirebaseChatOwnDatabase
+
 Rule used:
 
 ```plaintext
